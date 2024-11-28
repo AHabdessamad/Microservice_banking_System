@@ -1,0 +1,26 @@
+server:
+  port: 5001
+
+spring:
+  application:
+    name: User-Service
+  security:
+    user:
+      name: user
+      password: abdo
+
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/BankingSystemDB
+    username: postgres
+    password: postgrespassword
+
+
+
+  
